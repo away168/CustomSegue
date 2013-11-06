@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestCustomSegue", "TestCustomSegue\TestCustomSegue.csproj", "{6A3B584B-E9FB-461A-93D1-6A1049A88941}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|iPhoneSimulator = Debug|iPhoneSimulator
+		Release|iPhoneSimulator = Release|iPhoneSimulator
+		Debug|iPhone = Debug|iPhone
+		Release|iPhone = Release|iPhone
+		Ad-Hoc|iPhone = Ad-Hoc|iPhone
+		AppStore|iPhone = AppStore|iPhone
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6A3B584B-E9FB-461A-93D1-6A1049A88941}.Ad-Hoc|iPhone.ActiveCfg = Ad-Hoc|iPhone
+		{6A3B584B-E9FB-461A-93D1-6A1049A88941}.Ad-Hoc|iPhone.Build.0 = Ad-Hoc|iPhone
+		{6A3B584B-E9FB-461A-93D1-6A1049A88941}.AppStore|iPhone.ActiveCfg = AppStore|iPhone
+		{6A3B584B-E9FB-461A-93D1-6A1049A88941}.AppStore|iPhone.Build.0 = AppStore|iPhone
+		{6A3B584B-E9FB-461A-93D1-6A1049A88941}.Debug|iPhone.ActiveCfg = Debug|iPhone
+		{6A3B584B-E9FB-461A-93D1-6A1049A88941}.Debug|iPhone.Build.0 = Debug|iPhone
+		{6A3B584B-E9FB-461A-93D1-6A1049A88941}.Debug|iPhoneSimulator.ActiveCfg = Debug|iPhoneSimulator
+		{6A3B584B-E9FB-461A-93D1-6A1049A88941}.Debug|iPhoneSimulator.Build.0 = Debug|iPhoneSimulator
+		{6A3B584B-E9FB-461A-93D1-6A1049A88941}.Release|iPhone.ActiveCfg = Release|iPhone
+		{6A3B584B-E9FB-461A-93D1-6A1049A88941}.Release|iPhone.Build.0 = Release|iPhone
+		{6A3B584B-E9FB-461A-93D1-6A1049A88941}.Release|iPhoneSimulator.ActiveCfg = Release|iPhoneSimulator
+		{6A3B584B-E9FB-461A-93D1-6A1049A88941}.Release|iPhoneSimulator.Build.0 = Release|iPhoneSimulator
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = TestCustomSegue\TestCustomSegue.csproj
+	EndGlobalSection
+EndGlobal
