@@ -11,9 +11,12 @@ namespace TestCustomSegue
 	{
 		public AViewController (IntPtr handle) : base (handle)
 		{
-
 		}
 
+		// You can setup for the segue here.
+		// e.g. if you want to transition to different viewcontrollers.
+		// ref: https://developer.apple.com/library/ios/featuredarticles/ViewControllerPGforiPhoneOS/ManagingDataFlowBetweenViewControllers/ManagingDataFlowBetweenViewControllers.html#//apple_ref/doc/uid/TP40007457-CH8-SW4
+		// Listing 11-3 for example in ObjC
 		public override void PrepareForSegue (UIStoryboardSegue segue, NSObject sender)
 		{
 			Console.WriteLine ("Preparing for Segue : {0}", segue.Identifier);

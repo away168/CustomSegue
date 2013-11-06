@@ -6,18 +6,12 @@ using MonoTouch.UIKit;
 namespace TestCustomSegue {
 	public partial class BViewController : UIViewController {
 
+		// Required by Storyboard runtime when performing the Segue.
 		public BViewController (IntPtr pt) : base(pt)
 		{
 		}
 
-		public override void DidReceiveMemoryWarning ()
-		{
-			// Releases the view if it doesn't have a superview.
-			base.DidReceiveMemoryWarning ();
-			
-			// Release any cached data, images, etc that aren't in use.
-		}
-
+		// Dismiss this view controller (dialog) on command.
 		partial void MyDismssButton_TouchUpInside (UIButton sender)
 		{
 			DismissViewController(true, null);
