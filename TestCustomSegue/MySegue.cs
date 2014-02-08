@@ -20,10 +20,16 @@ namespace TestCustomSegue {
 		// minimum method to override for a custom segue.
 		public override void Perform ()
 		{
-			Console.WriteLine ("MySegue:Perform()");
-
-			SourceViewController.PresentViewController (DestinationViewController, true, null);
-
+	                Console.WriteLine ("MySegue:Perform()");
+	
+			// code courtesy of Werner.schnedl@gmx.ch
+	                var transition = CATransition.CreateAnimation ();
+	                transition.Duration = 0.25f;
+	                transition.Type = CATransition.TransitionPush;
+	                transition.Subtype = CATransition.TransitionFromRight;
+	
+	                SourceViewController.View.Window.Layer.AddAnimation(transition, null);
+	                SourceViewController.PresentViewController (DestinationViewController, false, null);
 		}
 	}
 }
